@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="TP-001.css">
+</head>
+
+<body>
+
+    <form action="" method="post">
+
+        <fieldset>
+
+            <legend>Inscription</legend>
+
+            <table>
+
+                <tr>
+                    <td>Nom</td>
+                    <td>
+                        <input type="text" name="nom" id="nom">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Prénom</td>
+                    <td>
+                        <input type="text" name="prenom" id="prenom">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Sexe</td>
+                    <td>
+                        <input type="radio" name="sexe" id="feminin" value="feminin">
+                        <label for="feminin">Féminin</label>
+
+                        <input type="radio" name="sexe" id="masculin" value="masculin">
+                        <label for="masculin">Masculin</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date de naissance</td>
+                    <td>
+                        <input type="date" name="date" id="date">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Niveau d'études</td>
+                    <td>
+
+                        <select name="niveau" id="niveau">
+
+                            <optgroup label="Secondaire">
+                                <option value="3eme">3ème année Collège</option>
+                                <option value="2eme">2ème année Lycée</option>
+                            </optgroup>
+
+                            <optgroup label="Universitaire">
+                                <option value="licence">Licence</option>
+                                <option value="master">Master</option>
+                                <option value="doctorat">Doctorat</option>
+                            </optgroup>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Spécialité</td>
+                    <td>
+
+                        <input
+                            list="specialite"
+                            id="specialite-input"
+                            name="specialite"
+                        >
+
+                        <datalist id="specialite">
+                            <option value="Développement Digital">
+                            <option value="Digital Design">
+                            <option value="Infrastructure Digitale">
+                            <option value="Intelligence Artificielle">
+                        </datalist>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Téléphone</td>
+                    <td>
+                        <input
+                            type="tel"
+                            name="tel"
+                            id="tel"
+                            size="13"
+                        >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            size="30"
+                        >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Adresse</td>
+                    <td>
+                        <textarea
+                            name="adresse"
+                            id="adresse"
+                        ></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Photo de profil</td>
+                    <td>
+                        <input
+                            type="file"
+                            name="avatar"
+                            id="avatar"
+                        >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Username</td>
+                    <td>
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                        >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Mot de passe</td>
+                    <td>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                        >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input
+                            type="submit"
+                            name="submit"
+                            id="submit"
+                            value="Valider"
+                        >
+                    </td>
+
+                    <td>
+                        <input
+                            type="reset"
+                            name="reset"
+                            id="reset"
+                            value="Réinitialiser"
+                        >
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
