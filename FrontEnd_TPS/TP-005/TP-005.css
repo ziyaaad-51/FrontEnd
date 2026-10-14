@@ -1,0 +1,74 @@
+
+body {
+    width: 1500px;
+}
+
+
+.cmc {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+}
+
+
+.ofppt {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    width: 100px;
+}
+
+
+.flag {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+
+.flag {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 25%;
+    left: 710px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.star {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    background-color: red;
+}
+
+.star div {
+  position: absolute;
+  width: 50px;
+  height: 146px;
+  left: 50px;
+  top: 2px;
+  border-left: 4px solid green;
+  transform-origin: center;
+  box-sizing: border-box;
+}
+.star div:nth-of-type(1) {
+  transform: rotate(90deg);
+}
+.star div:nth-of-type(2) {
+  transform: rotate(162deg);}
+  .star div:nth-of-type(3) {
+  transform: rotate(234deg);
+}
+.star div:nth-of-type(4) {
+  transform: rotate(306deg);
+}
+.star div:nth-of-type(5) {
+  transform: rotate(378deg);
+}
